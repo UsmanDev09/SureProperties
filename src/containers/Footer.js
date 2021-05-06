@@ -16,7 +16,7 @@ const Footer = () => {
 
                     <div className = {styles.contents}>
                     <ul >
-                        <li><a href = "#" className = {styles.footerlinks}> <b>Home </b></a> </li>
+                        {/* <li><a href = "#" className = {styles.footerlinks}> <b>Home </b></a> </li> */}
                         <li> <a href = "#" className = {styles.footerlinks}> <b> Search </b></a></li>
                         <li> <a href = "#" className = {styles.footerlinks}> <b>Featured </b> </a></li>
                         <li> <a href = "#" className = {styles.footerlinks}> <b> Contact Us </b> </a></li>
@@ -28,20 +28,24 @@ const Footer = () => {
                         <h3 className = {styles.follow_heading} style = {{fontSize:"1em"}}> Follow us!</h3>
                         <div className = {styles.socialwrapper}  >
                             <div className = "fac" >
-                                <img src = {facebook} alt = "facebook" ></img>
-                            
+                                <a href = "http://fb.com/surePropertiesPakistan">
+                                    <img src = {facebook}style = {{width:"20px",height:"20px"}} alt = "facebook" ></img>
+                                </a>
                             </div>    
                             <div className = "instagram"> 
+                                <a href = "https://www.instagram.com/surepropertiespk/">
                                 <img src = {instagram} style = {{width:"20px",height:"20px"}} alt = "instagram" ></img>
-                            
+                                </a>
                             </div>                           
                             <div className = "linkedin">
-                                <img src = {linkedin} alt = "linkedin" ></img>
-                            
+                                <a href = "https://www.linkedin.com/company/sureproperties/">
+                                <img src = {linkedin} style = {{width:"20px",height:"20px"}}alt = "linkedin" ></img>
+                                </a>
                             </div>
                             <div className = "twitter">
-                                <img src = {twitter} alt = "twitter" ></img>
-                            
+                                <a href = "https://twitter.com/PropertiesSure">
+                                    <img src = {twitter} style = {{width:"20px",height:"20px"}}alt = "twitter" ></img>
+                                </a>
                             </div>
                         </div>
                     </div>

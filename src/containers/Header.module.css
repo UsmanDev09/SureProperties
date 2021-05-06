@@ -6,9 +6,10 @@ header > input{
 }
 .header{
     
-    width: 90%;
+    width: 100%;
     display: flex;
-    margin: 0 5%;
+    margin: 0 ;
+    box-shadow: 1px 1px 5px #a7a4a49c;
     justify-content:space-between ;
     background-color: white;
 }
@@ -88,7 +89,7 @@ padding-right:0;
     .header{
         height:100%;
         width:auto;
-        margin-left:22px;
+        
        
     }
     

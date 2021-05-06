@@ -11,6 +11,7 @@ flex-wrap:wrap;
     width:200px;
     
 }
+
 .socialwrapper{
     display: flex;
     flex-direction: row;
@@ -28,9 +29,14 @@ flex-wrap:wrap;
     display: flex;
     align-items: center;
 }
-.fac{
+.fac {
     padding-right: 20%;
     padding-left:0;
+}
+.fac >a >img{
+    width:20px;
+    height: 20px;
+    padding:0 10% ;
 }
 div > img{
     width:20px;

@@ -35,6 +35,7 @@ class MapContainer extends Component  {
         
           
     return(
+      <div id = "contact">
 <Map google={this.props.google} zoom={15} onClick={this.onMapClicked} initialCenter = {{lat :31.599669188077634,lng: 74.20679545926397}}containerStyle = {containerStyle}>
     
     <Marker onMouseover={this.onMarkerClick} name={'SureProperties'} />
@@ -57,6 +58,7 @@ class MapContainer extends Component  {
 
     
  </Map>
+ </div>
 )
     }
 }
