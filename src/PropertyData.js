@@ -18,8 +18,8 @@ export const PropertyData = [
         society : "faisaltown",
         price : 150000,
         image: "/images/islamabad.jpg",
-        latitude:31.599669188077634,
-        longitude: 74.20679545926397
+        latitude:32.599669188077634,
+        longitude: 75.20679545926397
     },
     {   
         id:2,
@@ -29,8 +29,8 @@ export const PropertyData = [
         society : "johartown",
         price : 200000,
         image:  "/images/karachi.jpg",
-        latitude:31.599669188077634,
-        longitude: 74.20679545926397
+        latitude:33.599669188077634,
+        longitude: 72.20679545926397
     },
     {   
         id:3,
@@ -40,8 +40,8 @@ export const PropertyData = [
         society : "wapdatown",
         price : 500000,
         image: "/images/islamabad.jpg",
-        latitude:31.599669188077634,
-        longitude: 74.20679545926397
+        latitude:33.599669188077634,
+        longitude: 70.20679545926397
     }
     
         
