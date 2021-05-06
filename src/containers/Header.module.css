@@ -1,0 +1,196 @@
+header > input{
+    display: none;
+}
+.hamburger{
+    display:none;
+}
+.header{
+    
+    width: 90%;
+    display: flex;
+    margin: 0 5%;
+    justify-content:space-between ;
+    background-color: white;
+}
+
+
+.header > nav{
+    margin:0px 5%;
+   
+    position: absolute;
+    right:0;
+    
+}
+.headerlist{
+    display: flex;
+   
+    list-style-type: none;
+    
+    
+}
+nav > div{
+ 
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+
+
+nav > div > i {
+    padding:12px;
+    cursor: pointer;
+}
+ header > nav > div > i:nth-child(4) {
+padding-right:0;
+}
+.headerlinks {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    display: inline-block;
+
+    position: relative;
+  }
+.headerlinks:after {    
+   
+    bottom: 8px;  
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #e91f25;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .headerlinks:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  header > nav > ul > li:nth-child(1) > a,  header > nav > ul > li:nth-child(2) > a,  header > nav > ul > li:nth-child(3) > a{
+      padding: 15px 15px;
+  }
+  
+   header > nav > ul > li:nth-child(4) > a{
+    padding: 15px 0;
+  }
+  .checked.open .hamburger{
+      transform: translateX(50px);
+  }
+
+  @media only screen and (max-width: 650px){
+    header > nav > ul > li:nth-child(4) > a{
+        padding: 15px 15px;
+    }
+    .header{
+        height:100%;
+        width:auto;
+        margin-left:22px;
+       
+    }
+    
+    .header > img{
+        min-width: 100px;
+    }
+    header > div{
+        background-color:white;
+        height: 40px;
+        width : 30px; 
+        position: absolute; 
+        right: 5%;
+        top: 30px;
+        cursor: pointer;   
+        z-index: 4;
+        outline: none;
+        transition: all 0.5s ease-in-out;
+    }
+    nav{
+       min-width:300px;
+        min-height:100vh; 
+        display: none;
+        z-index: 2;
+        background-color: white;
+        left:0;
+        
+    }
+    .header > nav{
+        margin:0px 0px;
+       
+       
+    }
+    header > div > div{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color : black; 
+        position: relative;
+        right: 5%;
+        z-index:3;
+       
+    }
+    header > div >div::before{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        position: relative;
+        top: 20px;
+        background-color: black;
+        
+    }
+   
+    header > div >div::after{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        position: relative;
+        top: 7px;
+        background-color: black;
+        
+    }
+   
+    
+   nav > ul{
+       flex-direction: column;   
+      
+   }
+   nav > ul > li{
+      text-align: left;
+      margin-right: 60px;
+     
+   }
+   nav >ul > li >a{
+       color:black;
+       outline: none;
+   }
+    header > nav > div.social > li:nth-child(1) > li{
+       display: flex;
+       flex-direction: row;
+   }
+
+   nav >ul > li >a::after{
+       height: 0;
+   }
+    header > nav > ul > li:nth-child(4) > a{
+        padding: 15px 15px;
+   }
+   nav >div{
+       
+       left:4%;
+       text-align: left;
+       position: absolute;
+       top:33vh
+   }
+   nav > div > i{
+       
+       padding-right: 15px;
+   }
+    header > nav > div > i:nth-child(1){
+        padding-left: 0;
+    } 
+  }
+

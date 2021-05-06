@@ -1,0 +1,42 @@
+[
+    {
+        propertyType: [
+                    building,
+                    upperportion
+                ],
+        location : "lahore",
+        society : "wapdatown",
+        image: "images"
+
+    },
+    {
+        propertyType: [
+                    house,
+                    upperportion
+                ],
+        location : "lahore",
+        society : "wapdatown", 
+        image: "images"
+    },
+    {
+        propertyType: [
+                    shop,
+                    upperportion
+                ],
+        location : "lahore",
+        society : "johartown",
+        image: "images"
+    },
+    {
+        propertyType: [
+                    building,
+                    upperportion
+                ],
+        location : "lahore",
+        society : "wapdatown",
+        image: "images"
+    }
+    
+        
+    
+]
