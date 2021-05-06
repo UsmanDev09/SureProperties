@@ -6,7 +6,7 @@ export const PropertyData = [
         location : "Lahore",
         society : "wapdatown",
         price : 10000,
-        image: "../images/lahore.jpg",
+        image: "/images/lahore.jpg",
         latitude:31.599669188077634,
         longitude: 74.20679545926397
     },
@@ -17,7 +17,7 @@ export const PropertyData = [
         location : "Islamabad",
         society : "faisaltown",
         price : 150000,
-        image: "../images/islamabad.jpg",
+        image: "/images/islamabad.jpg",
         latitude:31.599669188077634,
         longitude: 74.20679545926397
     },
@@ -28,7 +28,7 @@ export const PropertyData = [
         location : "Karachi",
         society : "johartown",
         price : 200000,
-        image:  "../images/karachi.jpg",
+        image:  "/images/karachi.jpg",
         latitude:31.599669188077634,
         longitude: 74.20679545926397
     },
@@ -39,7 +39,7 @@ export const PropertyData = [
         location : "Islamabad",
         society : "wapdatown",
         price : 500000,
-        image: "../images/islamabad.jpg",
+        image: "/images/islamabad.jpg",
         latitude:31.599669188077634,
         longitude: 74.20679545926397
     }
