@@ -36,16 +36,16 @@ function Header(){
     <nav> 
         <ul className = {styles.headerlist}>
             {/* <li><a href = "#" className = {styles.headerlinks}> <b>Home </b></a> </li> */}
-            <li> <a href = "#searchh" className = {styles.headerlinks}> <b> Search </b></a></li>
-            <li> <a href = "#featured" className = {styles.headerlinks}> <b>Featured </b> </a></li>
-            <li> <a href = "#contact" className = {styles.headerlinks}> <b> Contact Us </b> </a></li>
+            <li onClick = {toggleMenu}> <a href = "#searchh" className = {styles.headerlinks}> <b> Search </b></a></li>
+            <li onClick = {toggleMenu}> <a href = "#featured" className = {styles.headerlinks}> <b>Featured </b> </a></li>
+            <li onClick = {toggleMenu}> <a href = "#contact" className = {styles.headerlinks}> <b> Contact Us </b> </a></li>
             <li> </li>
 
         </ul>
         <div className = "social">
             
-            <i><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"20px",height:"20px"}}></img></a></i>
-            <i><a href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"20px",height:"20px"}}></img></a></i>
+            <i ><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"20px",height:"20px"}}></img></a></i>
+            <i ><a  href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"20px",height:"20px"}}></img></a></i>
             <i><a href = "https://www.linkedin.com/company/sureproperties/"><img src = {linkedin} alt = "linkedin" style = {{width:"20px",height:"20px"}}></img></a></i>
             <i><a href = "https://twitter.com/PropertiesSure"><img src = {twitter} alt = "twitter" style = {{width:"20px",height:"20px"}}></img></a></i>
             

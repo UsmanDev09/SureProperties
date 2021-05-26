@@ -17,9 +17,9 @@ const Footer = () => {
                     <div className = {styles.contents}>
                     <ul >
                         {/* <li><a href = "#" className = {styles.footerlinks}> <b>Home </b></a> </li> */}
-                        <li> <a href = "#" className = {styles.footerlinks}> <b> Search </b></a></li>
-                        <li> <a href = "#" className = {styles.footerlinks}> <b>Featured </b> </a></li>
-                        <li> <a href = "#" className = {styles.footerlinks}> <b> Contact Us </b> </a></li>
+                        <li> <a href = "#searchh" className = {styles.footerlinks}> <b> Search </b></a></li>
+                        <li> <a href = "#feautured" className = {styles.footerlinks}> <b>Featured </b> </a></li>
+                        <li> <a href = "#contact" className = {styles.footerlinks}> <b> Contact Us </b> </a></li>
                         
 
                     </ul>
