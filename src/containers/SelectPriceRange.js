@@ -13,7 +13,7 @@ function SelectPriceRange(props){
         
       let checkbox = document.querySelector("#dropdownMenu");
       let  body = document.querySelector("body");
- 
+     
       if(!expanded && window.innerWidth > 500){
         checkbox.style.display = "flex";
         setExpanded(true);
@@ -37,8 +37,8 @@ function SelectPriceRange(props){
         setDisplay("none");
         body.style.overflow = "visible";
       } 
-    }
-
+    
+  }
     
     return(
         <Fragment>

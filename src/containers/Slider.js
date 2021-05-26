@@ -26,7 +26,7 @@ const Slider = () => {
   }
   
 return(
-<div id = "featured"style = {{width:"90%",margin:"0 5%"}}>
+<div style = {{width:"90%",margin:"0 5%"}}>
 <Carousel
   
   responsive={responsive}

@@ -44,7 +44,7 @@ function Header(){
         </ul>
         <div className = "social">
             
-            <i><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"20px",height:"20px",marginTop:"20px"}}></img></a></i>
+            <i><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"20px",height:"20px"}}></img></a></i>
             <i><a href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"20px",height:"20px"}}></img></a></i>
             <i><a href = "https://www.linkedin.com/company/sureproperties/"><img src = {linkedin} alt = "linkedin" style = {{width:"20px",height:"20px"}}></img></a></i>
             <i><a href = "https://twitter.com/PropertiesSure"><img src = {twitter} alt = "twitter" style = {{width:"20px",height:"20px"}}></img></a></i>
