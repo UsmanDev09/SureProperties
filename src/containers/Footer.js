@@ -29,22 +29,22 @@ const Footer = () => {
                         <div className = {styles.socialwrapper}  >
                             <div className = "fac" >
                                 <a href = "http://fb.com/surePropertiesPakistan">
-                                    <img src = {facebook}style = {{width:"20px",height:"20px"}} alt = "facebook" ></img>
+                                    <img src = {facebook} className = {styles.footer_Icons} style = {{width:"20px",height:"20px"}} alt = "facebook" ></img>
                                 </a>
                             </div>    
                             <div className = "instagram"> 
                                 <a href = "https://www.instagram.com/surepropertiespk/">
-                                <img src = {instagram} style = {{width:"20px",height:"20px"}} alt = "instagram" ></img>
+                                <img src = {instagram} className = {styles.footer_Icons} style = {{width:"20px",height:"20px"}} alt = "instagram" ></img>
                                 </a>
                             </div>                           
                             <div className = "linkedin">
                                 <a href = "https://www.linkedin.com/company/sureproperties/">
-                                <img src = {linkedin} style = {{width:"20px",height:"20px"}}alt = "linkedin" ></img>
+                                <img src = {linkedin} className = {styles.footer_Icons} style = {{width:"20px",height:"20px"}}alt = "linkedin" ></img>
                                 </a>
                             </div>
                             <div className = "twitter">
                                 <a href = "https://twitter.com/PropertiesSure">
-                                    <img src = {twitter} style = {{width:"20px",height:"20px"}}alt = "twitter" ></img>
+                                    <img src = {twitter} className = {styles.footer_Icons} style = {{width:"20px",height:"20px"}}alt = "twitter" ></img>
                                 </a>
                             </div>
                         </div>
