@@ -34,12 +34,12 @@ return(
   draggable={true}
 
 >
-  <img src={propertyOne} alt = "sad" style = {{height:"200px", width:"280px",margin:"0 20px"}}></img>
-  <img src={propertyTwo} alt = "sad" style = {{height:"200px", width:"280px", margin:"0 20px"}}></img>
-  <img src={propertyThree} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 20px"}}></img>
-  <img src={propertyFour} alt = "sad" style = {{height:"200px", width:"280px", margin:"0 20px"}}></img>
-  <img src={propertyfive} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 20px"}}></img>
-  <img src={propertyfive} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 20px"}}></img>
+  <img src={propertyOne} alt = "sad" style = {{height:"200px", width:"280px",margin:"0 auto"}}></img>
+  <img src={propertyTwo} alt = "sad" style = {{height:"200px", width:"280px", margin:"0 auto"}}></img>
+  <img src={propertyThree} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 auto"}}></img>
+  <img src={propertyFour} alt = "sad" style = {{height:"200px", width:"280px", margin:"0 auto"}}></img>
+  <img src={propertyfive} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 auto"}}></img>
+  <img src={propertyfive} alt = "sad" style = {{height:"200px", width:"280px", margin: "0 auto"}}></img>
 </Carousel>
 </div>
 )}

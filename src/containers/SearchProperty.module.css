@@ -5,8 +5,8 @@
     align-items : center;
     height: auto;     
     width: 100%;
-    background-color: rgb(252 202 9 / 28%);
-
+    background-color: white;
+    margin-top: 20px;
 }
 .padding{
     height: 20%;
@@ -58,12 +58,6 @@ nav > div > i {
     cursor: pointer;
 }
 
-  header > nav > ul > li:nth-child(1) > a,  header > nav > ul > li:nth-child(2) > a,  header > nav > ul > li:nth-child(3) > a{
-      padding: 15px 15px;
-  }
-   header > nav > ul > li:nth-child(4) > a{
-    padding: 15px 0;
-  }
 .search{
     display:flex;
     flex-direction:row;

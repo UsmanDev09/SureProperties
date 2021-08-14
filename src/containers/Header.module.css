@@ -17,14 +17,16 @@ header > input{
 
 .header > nav{
     margin:0px 5%;
-   
+    height:60px;
+    width:80%;
     position: absolute;
     right:0;
+   
     
 }
 .headerlist{
     display: flex;
-   
+    margin:12.5px 0; 
     list-style-type: none;
     
     
@@ -32,8 +34,9 @@ header > input{
 nav > div{
  
     position: absolute;
-    bottom:0;
+    top:10px;
     right:0;
+    
 
 }
 
@@ -42,59 +45,79 @@ nav > div > i {
     padding:12px;
     cursor: pointer;
 }
- header > nav > div > i:nth-child(4) {
-padding-right:0;
+
+
+
+.links{
+    text-align: end;
 }
+
 .headerlinks {
-    color: black;
-    text-transform: uppercase;
+    color:#888383;
     text-decoration: none;
     letter-spacing: 0.1em;
     display: inline-block;
-
     position: relative;
+    font-family:'Quicksand',sans-serif;
   }
-.headerlinks:after {    
+  
+/* .headerlinks:after {    
    
-    bottom: 8px;  
+    top:20px;  
     content: "";
     display: block;
     height: 4px;
     left: 50%;
     position: absolute;
-    background: #e91f25;
+    background: #f44336;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  .headerlinks:hover:after { 
+.headerlinks:hover:after { 
     width: 100%; 
     left: 0; 
   }
+   */
+header > nav > ul > li:nth-child(3) > a{
+      margin: 20px 25px 20px 0;
+}
   
-  header > nav > ul > li:nth-child(1) > a,  header > nav > ul > li:nth-child(2) > a,  header > nav > ul > li:nth-child(3) > a{
-      padding: 15px 15px;
-  }
-  
-   header > nav > ul > li:nth-child(4) > a{
-    padding: 15px 0;
-  }
-  .checked.open .hamburger{
+header > nav > ul > li:nth-child(1) > a{
+    margin: 20px 25px;
+}
+
+header > nav > ul > li:nth-child(2) > a{
+      margin: 20px 25px 20px 0;
+}
+header > nav > ul > li:nth-child(4) > a{
+    margin:20px 0;
+    }
+
+.links{
+    text-align: left;
+}
+.checked.open .hamburger{
       transform: translateX(50px);
   }
 
   @media only screen and (max-width: 650px){
-    header > nav > ul > li:nth-child(4) > a{
-        padding: 15px 15px;
-    }
+ 
     .header{
         height:100%;
-        width:auto;
-        
-       
+        width:auto; 
     }
     
-    .header > img{
-        min-width: 100px;
+    header > nav > ul > li:nth-child(1) > a{
+        margin: 20px 25px;
+        text-align: left;
+    }
+    
+    header > nav > ul > li:nth-child(2) > a{
+        margin: 20px 25px;
+    }
+
+    header > nav > ul > li:nth-child(3) > a{
+        margin: 20px 25px;
     }
     header > div{
         background-color:white;
@@ -119,6 +142,7 @@ padding-right:0;
     }
     .header > nav{
         margin:0px 0px;
+        width: 100%;
        
        
     }
@@ -184,11 +208,12 @@ padding-right:0;
        left:4%;
        text-align: left;
        position: absolute;
-       top:33vh
+       top:35%;
    }
    nav > div > i{
        
        padding-right: 15px;
+       padding-top:10px;
    }
     header > nav > div > i:nth-child(1){
         padding-left: 0;
