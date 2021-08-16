@@ -39,11 +39,7 @@ class MapContainer extends Component  {
 <Map google={this.props.google} zoom={15} onClick={this.onMapClicked} initialCenter = {{lat :31.599669188077634,lng: 74.20679545926397}}containerStyle = {containerStyle}>
     
     <Marker onMouseover={this.onMarkerClick} name={'SureProperties'} />
-    <Marker
-    onMouseover={this.onMarkerClick} 
-    title={'The marker`s title will appear as a tooltip.'}
-    name={'Plot1'}
-    position={{lat: 31.6, lng: 74.200}} />
+    
 
 
     
