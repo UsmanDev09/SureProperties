@@ -17,15 +17,15 @@ const Footer = () => {
                     <div className = {styles.contents}>
                     <ul >
                         {/* <li><a href = "#" className = {styles.footerlinks}> <b>Home </b></a> </li> */}
-                        <li> <a href = "#searchh" className = {styles.footerlinks}> Search </a></li>
-                        <li> <a href = "#feautured" className = {styles.footerlinks}> Featured  </a></li>
+                        {/* <li> <a href = "#searchh" className = {styles.footerlinks}> Search </a></li>
+                        <li> <a href = "#feautured" className = {styles.footerlinks}> Featured  </a></li> */}
                         <li> <a href = "#contact" className = {styles.footerlinks}>  Contact Us  </a></li>
                         
 
                     </ul>
                     </div>
                     <div className = {styles.social_icons} >
-                        <h3 className = {styles.follow_heading} style = {{fontSize:"1em",fontFamily:'Quickstand,sans-serif',fontWeight:"500"}}> Follow us!</h3>
+                        <h3 className = {styles.follow_heading} style = {{fontSize:"1em",fontFamily:'Quickstand,sans-serif',fontWeight:"500"}}> </h3>
                         <div className = {styles.socialwrapper}  >
                         <div className = "instagram"> 
                                 <a href = "https://www.instagram.com/surepropertiespk/">
@@ -52,9 +52,9 @@ const Footer = () => {
                     </div>
                   
                     <div className = {styles.contact} style = {{display: "flex",flexDirection: "column"}} >
-                        <h3 className = {styles.contact_heading} style = {{fontSize:"1em",fontFamily:'Quickstand,sans-serif',fontWeight:"500"}}>Contact us</h3>
-                        <p style = {{margin:"0",display:"flex",alignItems:"flex-end",marginBottom:"10px",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {phone} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> 03314093900</p>
-                        <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"flex-end",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {address} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none"}}href="mailto: usiddique09@gmail.com">info@sureproperties.pk</a> </p>
+                        <h3 className = {styles.contact_heading} style = {{fontSize:"1em",fontFamily:'Quickstand,sans-serif',fontWeight:"500"}}></h3>
+                        <p style = {{margin:"0",display:"flex",alignItems:"flex-end",marginBottom:"10px",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {phone} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}} href= "tel:+92-331-4900" >0331 4093900</a></p>
+                        <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"flex-end",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {address} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}}href="mailto: usiddique09@gmail.com">info@sureproperties.pk</a> </p>
                     </div>
 
                     <div className ={styles.partners}>
