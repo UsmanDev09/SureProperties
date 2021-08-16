@@ -54,7 +54,7 @@ const Footer = () => {
                     <div className = {styles.contact} style = {{display: "flex",flexDirection: "column"}} >
                         <h3 className = {styles.contact_heading} style = {{fontSize:"1em",fontFamily:'Quickstand,sans-serif',fontWeight:"500"}}>Contact us</h3>
                         <p style = {{margin:"0",display:"flex",alignItems:"flex-end",marginBottom:"10px",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {phone} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> 03314093900</p>
-                        <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"flex-end",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {address} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a href="mailto: usiddique09@gmail.com">Email Us</a> </p>
+                        <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"flex-end",fontFamily:"'Quickstand',sans-serif",fontWeight:"500"}}><img src = {address} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none"}}href="mailto: usiddique09@gmail.com">info@sureproperties.pk</a> </p>
                     </div>
 
                     <div className ={styles.partners}>
