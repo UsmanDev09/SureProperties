@@ -33,13 +33,13 @@ function Header(){
     function toggleMenu(){
         let nav = document.querySelector("nav");
         let logo = document.querySelector(".logo");
-        let search = document.querySelector("#search")
+        // let search = document.querySelector("#search")
         let checked = document.querySelector('.checked');
         if(isOpen === false){
            setisOpen(true);
             nav.style.display = "block";
             logo.style.display = "none";
-            search.style.display = "none";
+            // search.style.display = "none";
             checked.classList.add('open');
            // document.querySelector(" header > div > div.hamburger::after").style.transform = "translateX(-50px)"
         }else{
@@ -47,7 +47,7 @@ function Header(){
             setisOpen(false);           
             nav.style.display = "none";
             logo.style.display = "block";
-            search.style.display = "flex";
+            // search.style.display = "flex";
           checked.classList.remove('open');
         }
     }
@@ -58,10 +58,10 @@ function Header(){
     <nav> 
         
         <ul className = {styles.headerlist}>
-             <li onClick = {() => history.push('/')}><a href = "#" className = {styles.headerlinks}> <b>Home </b></a> </li> 
-            <li className = {styles.links}onClick = {toggleMenu}> <a href = "#searchh" className = {styles.headerlinks}> Search </a></li>
-            <li onClick = {toggleMenu}> <a href = "#featured" className = {styles.headerlinks}> Featured  </a></li>
-            <li onClick = {toggleMenu}> <a href = "#contact" className = {styles.headerlinks}>Contact Us </a></li>
+             <li onClick = {() => history.push('/')}><a href = "" className = {styles.headerlinks}> <b>Home </b></a> </li> 
+            <li className = {styles.links}onClick = {toggleMenu}> <a href = "" className = {styles.headerlinks} style = {{display:"none"}}> Search </a></li>
+            <li onClick = {toggleMenu}> <a href = "#featured" className = {styles.headerlinks} style = {{display:"none"}}> Featured  </a></li>
+            <li onClick = {toggleMenu}> <a href = "#contact-us" className = {styles.headerlinks}>Contact Us </a></li>
             <li> </li>
 
         </ul>
@@ -70,7 +70,7 @@ function Header(){
             <div>
                 <i><Button variant= "contained" className = {classes.button}><a href= "tel:+92-331-4900" style = {{textDecoration:"none",color:"black"}}>+92 331 409 3900</a></Button></i>
             </div>
-            <div style ={{display:"flex",justifyContent:"center"}}>
+            <div style ={{display:"flex",justifyContent:window.innerWidth> 650 ? "center" : "flex-start"}}>
                 <i ><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"15px",height:"15px",padding:"10px 10px 10px 0"}}></img></a></i>
                 <i ><a  href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"15px",height:"15px",padding:"10px"}}></img></a></i>
                 <i><a href = "https://www.linkedin.com/company/sureproperties/"><img src = {linkedin} alt = "linkedin" style = {{width:"15px",height:"15px",padding:"10px"}}></img></a></i>

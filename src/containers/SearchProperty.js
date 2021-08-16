@@ -441,12 +441,12 @@ constructor(){
         <div className = "slider" style = {{height:"100%",position:"relative",bottom:"20px"}}>
             <SlideShow></SlideShow>
         </div>
-            <div style = {{height:"300px",width:"90%"}}>
+            {/* <div style = {{height:"300px",width:"90%"}}>
                 
                 <div className  ={styles.padding}>
                 <h4 className= "search-property" style = {{fontFamily:"'Cinzel',serif",fontWeight:"500"}}> Search Property</h4>
                 </div>
-                {/* <div style = {{height:"39px",width:"100%",display:"flex",justifyContent:"center"}}>   */}
+                
                 
                 <div className = {styles.search} id ="search">
                     
@@ -456,21 +456,21 @@ constructor(){
                     
                     <SelectPriceRange getFromPrice = {(from) => this.getFromPrice(from)}  getToPrice = {(to) => this.getToPrice(to)}></SelectPriceRange>
                     
-                    {/* <button style = {{ width:"150px", height: "39px", border: "2px solid black",borderLeft: "1px solid black",padding: "0", backgroundColor:"white", boxShadow: " 1px -1px 10px rgb(109 88 88 / 19%)" }} onClick={this.find}><span style = {{fontSize:"1.5rem"}}>Search</span></button> */}
+                   
                     
                   </div>
                   
-            </div>
-            <DisplayProperty  data = {this.array}  ></DisplayProperty>   
+            </div> */}
+            {/* <DisplayProperty  data = {this.array}  ></DisplayProperty>    */}
            
          </div>  
-         <div id = "featured"> 
+         {/* <div id = "featured"> 
 
              <h4 style = {{marginTop:"50px",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Featured Adds</h4>
-         <Slider  ></Slider>
-         </div>
-         <h4 id = "contact "style = {{marginTop:"100px",marginBottom:"0",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Contact Us</h4>
-         <div style = {{height:"400px",width:"100%",margin:"50px 0",marginBottom: "100px"}}>
+         <Slider></Slider>
+         </div> */}
+         <h4 id = "contact" style = {{marginTop:"100px",marginBottom:"0",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Contact Us</h4>
+         <div id = "contact-us"style = {{height:"400px",width:"100%",margin:"50px 0",marginBottom: "100px"}}>
              
             <MapContainer></MapContainer>
          </div>
