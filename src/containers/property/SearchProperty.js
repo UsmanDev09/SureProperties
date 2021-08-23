@@ -2,16 +2,15 @@ import React, {Fragment,Component} from 'react';
 import SelectPropertyLocation from './SelectPropertyLocation';
 import DisplayProperty from './DisplayProperty';
 import SelectPropertyType from './SelectPropertyType';
-import SlideShow from './SlideShow';
-import {PropertyData} from '../PropertyData';
-import SelectPriceRange from '../containers/SelectPriceRange';
-import styles from './SearchProperty.module.css';
-import Header from './Header'
-import Slider from './Slider';
-
-import MapContainer from './Maps';
-
-import Footer from './Footer';
+import SlideShow from '../../containers/SlideShow';
+import {PropertyData} from '../../PropertyData';
+import SelectPriceRange from '../../containers/property/SelectPriceRange';
+import styles from '../../css/SearchProperty.module.css';
+import AboutUs from '../../containers/AboutUs';
+import Header from '../../containers/Header'
+import Slider from '../../containers/Slider';
+import MapContainer from '../../containers/Maps';
+import Footer from '../../containers/Footer';
 
   
 class SearchProperty extends Component{
@@ -432,8 +431,6 @@ constructor(){
        
     render(){
     return(
-        
-        
         <Fragment >
         <div id ="searchh">
         <Header></Header>
@@ -469,15 +466,23 @@ constructor(){
              <h4 style = {{marginTop:"50px",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Featured Adds</h4>
          <Slider></Slider>
          </div> */}
-         <h4 id = "contact" style = {{marginTop:"100px",marginBottom:"0",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Contact Us</h4>
-         <div id = "contact-us"style = {{height:"400px",width:"100%",margin:"50px 0",marginBottom: "100px"}}>
-             
+         
+        <h1 id = "about-us" style = {{marginTop: "70px", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>About Us</h1>
+        <div id = "about-us"style = {{width:"100%",margin:"0 0 30px 0px",marginBottom: "50px"}}>
+            <AboutUs></AboutUs>
+        </div> 
+
+
+
+        <h1 id = "contact" style = {{marginTop: "20px", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>Contact Us</h1>
+        <div id = "contact-us"style = {{height:"400px",width:"100%",margin:"30px 0",marginBottom: "50px"}}>
             <MapContainer></MapContainer>
-         </div>
-         <div style = {{marginTop:"100px"}}>
-         <Footer></Footer>
-         </div>
-         </div>
+        </div>
+
+        <div style = {{marginTop:"100px"}}>
+        <Footer></Footer>
+        </div>
+        </div>
         </Fragment>
         )
     }

@@ -16,7 +16,7 @@ flex-wrap:wrap;
     display: flex;
     flex-direction: row;
     width:200px;
-    
+   
 }
 .contact{
     display: flex;
@@ -39,8 +39,7 @@ flex-wrap:wrap;
     padding:0 10% ;
 }
 div > img{
-    width:20px;
-    height: 20px;
+   
     padding:0 10% ;
 }
 ul {
@@ -48,10 +47,10 @@ ul {
     padding:0;
 }
 .footerlinks{
-    font-size:1.1em;
+    font-size:1.2em;
     text-decoration: none;
     color:black;
-    font-family: 'Quicksand',sans-serif;
+    font-family: "'Poppins',sans-serif";
 }
 /* .footerlinks::after{
     display: none;
@@ -91,9 +90,7 @@ ul {
     .social_icons,.social_icons >h3::after{
         text-align: end;
     }
-    .socialwrapper{
-        justify-content: flex-end;
-    }
+    
      .partners{
          
          justify-content: center;
@@ -106,12 +103,11 @@ ul {
         
     } */
     .sureprop{
-        width:80px;
-        height:80px;
+        
     }
     .jalil{
-        width:70px;
-        height: 70px;
+        width:65px;
+        height: 65px;
     }
 }
 

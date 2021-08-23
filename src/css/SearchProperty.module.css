@@ -20,7 +20,22 @@ header > input{
 .hamburger{
     display:none;
 }
-
+/* h1:after {    
+   
+    top:20px;  
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #f44336;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+h1:hover:after { 
+    width: 100%; 
+    left: 0; 
+  } */
 .header{
     
     width: 90%;

@@ -1,7 +1,7 @@
 import { useInView } from 'react-intersection-observer';
 import PropertyMap from './PropertyMap';
-import styles from './Property.module.css';
-import price from './icons/price.svg';
+import styles from '../css/Property.module.css';
+import price from '../icons/price.svg';
 const Property = (props) => {
     const [ref, inView] = useInView({
         threshold : 0.5

@@ -1,5 +1,5 @@
 
-import Property from './Property';
+import Property from '../../containers/Property';
 
 function DisplayProperty(props){
    

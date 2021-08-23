@@ -1,8 +1,8 @@
 import React,{Fragment} from 'react';
 import Header from '../containers/Header';
 import Footer from '../containers/Footer';
-import brouchure_three from '../containers/brouchers/alnoor_frontpage.png';
-import brouchure_four from '../containers/brouchers/alnoor_backpage.png';
+import brouchure_three from '../../src/brouchers/alnoor_frontpage.png';
+import brouchure_four from '../../src/brouchers/alnoor_backpage.png';
 const AlNoor = () => {
     return(
         <Fragment>

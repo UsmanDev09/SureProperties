@@ -1,7 +1,7 @@
 import React, {useState,Fragment} from 'react';
-import Popup from './Popup';
-import style from './SelectPropertyType.module.css';
-import home from './icons/home.svg'
+import Popup from '../../containers/Popup';
+import style from '../../css/SelectPropertyType.module.css';
+import home from '../../icons/home.svg'
 function SelectPropertyType(props){
   /* let selectedType = {};
    const [type,selected] = useState({

@@ -1,7 +1,7 @@
 import React, {useState,Fragment} from 'react';
-import styles from './SelectPropertyLocation.module.css';
-import Popup from './Popup';
-import location from './icons/location.svg';
+import styles from '../../css/SelectPropertyLocation.module.css';
+import Popup from '../../containers/Popup';
+import location from '../../icons/location.svg';
 function SelectPropertyLocation(props){
     
     const [height,setHeight] = useState('0');

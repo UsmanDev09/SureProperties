@@ -1,7 +1,7 @@
 import React,{useState,Fragment} from 'react';
-import styles from './SelectPriceRange.module.css';
-import Popup from './Popup';
-import price from './icons/property.svg';
+import styles from '../../css/SelectPriceRange.module.css';
+import Popup from '../../containers/Popup';
+import price from '../../icons/property.svg';
 function SelectPriceRange(props){
     
     const [height,setHeight] = useState('0');
