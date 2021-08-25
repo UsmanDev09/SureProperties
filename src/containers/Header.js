@@ -20,7 +20,7 @@ import MailIcon from '@material-ui/icons/Mail';
 
 
 import {useHistory} from 'react-router-dom'
-import logo from '../icons/black_logo.png';
+import logo from '../icons/colorful_logo.png';
 import facebook from '../icons/facebook.svg';
 import instagram from '../icons/instagram.svg';
 import linkedin from '../icons/linkedin.svg';
@@ -142,9 +142,12 @@ function Header(props){
         <Divider />
         <List>
         <li onClick = {() => history.push('/')}><a href = "" className = {styles.headerlinks}> Home </a> </li> 
-            <li className = {styles.links}> <a href = "" className = {styles.headerlinks} > About </a></li>
+            <li className = {styles.links}> <a href = "#aboutus" className = {styles.headerlinks} > About </a></li>
             <li > <a href = "#featured" className = {styles.headerlinks} style = {{display:"none"}}> Featured  </a></li>
             <li > <a href = "#contact-us" className = {styles.headerlinks}>Contact Us </a></li>
+            <li  onClick = {() => history.push('/aljalil')}> <a href = "" className = {styles.headerlinks}>Al-Jalil </a></li>
+            <li onClick = {() => history.push('/alnoor')}> <a href = "" className = {styles.headerlinks}>Al-Noor </a></li>
+            <li onClick = {() => history.push('/albari')}> <a href = "" className = {styles.headerlinks}>Al-Bari  </a></li>
         </List>
         <Divider />
         <List>
@@ -163,10 +166,13 @@ function Header(props){
         
         <ul className = {styles.headerlist}>
              <li onClick = {() => history.push('/')}><a href = "" className = {styles.headerlinks}> Home </a> </li> 
-            <li className = {styles.links}> <a href = "" className = {styles.headerlinks} > About </a></li>
+            <li className = {styles.links}> <a href = "#aboutus" className = {styles.headerlinks} > About </a></li>
             <li > <a href = "#featured" className = {styles.headerlinks} style = {{display:"none"}}> Featured  </a></li>
             <li > <a href = "#contact-us" className = {styles.headerlinks}>Contact Us </a></li>
-            <li> </li>
+            <li  onClick = {() => history.push('/aljalil')}> <a href = "" className = {styles.headerlinks}>Al-Jalil </a></li>
+            <li onClick = {() => history.push('/alnoor')}> <a href = "" className = {styles.headerlinks}>Al-Noor </a></li>
+            <li onClick = {() => history.push('/albari')}> <a href = "" className = {styles.headerlinks}>Al-Bari  </a></li>
+            
 
         </ul>
         

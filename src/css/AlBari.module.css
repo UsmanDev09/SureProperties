@@ -1,0 +1,16 @@
+.albariImage{
+    width:500px;
+    height:500px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+.albariDescription{
+flex-direction: column;
+}
+.albariImage{
+    width:100%;
+}
+
+}

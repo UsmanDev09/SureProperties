@@ -1,4 +1,4 @@
-import logo from '../icons/black_logo.png';
+import logo from '../icons/colorful_logo.png';
 import facebook from '../icons/facebook.svg';
 import instagram from '../icons/instagram.svg';
 import linkedin from '../icons/linkedin.svg';

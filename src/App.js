@@ -3,6 +3,8 @@ import './App.css';
 import Main from './containers/Main';
 import AlJalil from './containers/AlJalil';
 import AlNoor from './containers/AlNoor';
+import AlBari from './containers/AlBari';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +15,9 @@ function App() {
   return (
     <Router>
     <Switch>
-    
+    <Route path="/albari">
+      <AlBari />
+    </Route>
     <Route path="/aljalil">
       <AlJalil />
     </Route>

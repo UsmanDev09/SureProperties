@@ -2,6 +2,7 @@ import Carousel from 'react-material-ui-carousel';
 import { Paper, Button } from '@material-ui/core';
 import aljalil from './slider/aljalil_bg.jpg';
 import alnoor from './slider/alnoor_bg1.jpg';
+import albari from './slider/albari_bg.jpg';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { useHistory } from "react-router-dom";
 function Item(props)
@@ -29,11 +30,17 @@ function SlideShow(){
                heading: "Al-Jalil Garden",
                description: "Al-Jalil Gardens started with a vision to empower the masses to lead an elevated and better lifestyle, Al-Jalil Developers has been continuously working towards providing innovative infrastructure solutions and improving the standard of living for Pakistanis."
 
-            }, {
+            },{
                 image: alnoor,
                 content: "Explore Al-Noor Garden",
                 link : "/alnoor",
                 heading: "Al-Noor Garden",
+                description: "Al-Noor Orchard Housing Scheme is another most successful housing project of Al-Jalil Developers. It’s the largest LDA approved housing project of Lahore-West."
+             },{
+                image: albari,
+                content: "Explore Al-Bari Garden",
+                link : "/albari",
+                heading: "Al-Bari Garden",
                 description: "Al-Noor Orchard Housing Scheme is another most successful housing project of Al-Jalil Developers. It’s the largest LDA approved housing project of Lahore-West."
              },
            

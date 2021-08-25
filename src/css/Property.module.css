@@ -21,13 +21,14 @@
 }
 .propertymap{
     
-  height: 200px;
+  height: 400px;
   
 }
 .mapsss{
-    width:40%;
-    height:200px;
-    margin-top:1%;
+    width:90%;
+    height:400px;
+
+    margin: 0 5%;
 }
 
 @media only screen and (max-width: 850px){

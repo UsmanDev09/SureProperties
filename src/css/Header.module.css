@@ -5,7 +5,6 @@ header > input{
     display:none;
 }
 .header{
-    
     width: 100%;
     display: flex;
     margin: 0 ;
@@ -52,7 +51,7 @@ nav > div > i {
 }
 
 .headerlinks {
-    color:#888383;
+    color:black;
     text-decoration: none;
     letter-spacing: 0.1em;
     display: inline-block;
@@ -77,20 +76,33 @@ nav > div > i {
     left: 0; 
   } 
    
-header > nav > ul > li:nth-child(3) > a{
-      margin: 20px 25px 20px 0;
-}
-  
 header > nav > ul > li:nth-child(1) > a{
-    margin: 20px 25px;
+    margin: 24px 25px;
 }
 
 header > nav > ul > li:nth-child(2) > a{
-      margin: 20px 25px 20px 0;
+    margin: 24px 25px 20px 0;
 }
+
+header > nav > ul > li:nth-child(3) > a{
+    margin: 24px 25px 20px 0;
+}
+
 header > nav > ul > li:nth-child(4) > a{
-    margin:20px 0;
-    }
+    margin:24px 25px 20px 0;
+}
+
+header > nav > ul > li:nth-child(5) > a{
+    margin:24px 25px 20px 0;
+}
+
+header > nav > ul > li:nth-child(6) > a{
+    margin:24px 25px 20px 0;
+}
+
+header > nav > ul > li:nth-child(7) > a{
+    margin:24px 0;
+}
 
 .links{
     text-align: left;

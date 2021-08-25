@@ -466,20 +466,20 @@ constructor(){
              <h4 style = {{marginTop:"50px",fontFamily:"'Cinzel',serif",fontWeight:"500"}}>Featured Adds</h4>
          <Slider></Slider>
          </div> */}
-         
-        <h1 id = "about-us" style = {{marginTop: "70px", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>About Us</h1>
-        <div id = "about-us"style = {{width:"100%",margin:"0 0 30px 0px",marginBottom: "50px"}}>
+        
+        <h1  style = {{marginTop: "8%", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>About Us</h1>
+        <div style = {{width:"100%",margin:"0 0 30px 0px",marginBottom: "50px"}}>
             <AboutUs></AboutUs>
         </div> 
+        
 
 
-
-        <h1 id = "contact" style = {{marginTop: "20px", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>Contact Us</h1>
+        <h1 id = "contact" style = {{marginTop: "8%", marginLeft: "5%", marginBottom:"0", fontFamily:"'Cinzel',serif", fontSize: "2em", textAlign: "left", fontFamily:"'Cinzel',serif"}}>Contact Us</h1>
         <div id = "contact-us"style = {{height:"400px",width:"100%",margin:"30px 0",marginBottom: "50px"}}>
             <MapContainer></MapContainer>
         </div>
 
-        <div style = {{marginTop:"100px"}}>
+        <div style = {{marginTop:"8%"}}>
         <Footer></Footer>
         </div>
         </div>
