@@ -20,7 +20,7 @@ import MailIcon from '@material-ui/icons/Mail';
 
 
 import {useHistory} from 'react-router-dom'
-import logo from '../icons/colorful_logo.png';
+import logo from '../icons/colorful_logo.jpeg';
 import facebook from '../icons/facebook.svg';
 import instagram from '../icons/instagram.svg';
 import linkedin from '../icons/linkedin.svg';
@@ -35,7 +35,7 @@ const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    [theme.breakpoints.up('sm')]:{
+    [theme.breakpoints.up('md')]:{
         display: 'none',
     }
     
@@ -120,9 +120,7 @@ function Header(props){
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap>
-            Persistent drawer
-          </Typography>
+          
         </Toolbar>
       </AppBar>
       <Drawer
@@ -145,9 +143,9 @@ function Header(props){
             <li className = {styles.links}> <a href = "#aboutus" className = {styles.headerlinks} > About </a></li>
             <li > <a href = "#featured" className = {styles.headerlinks} style = {{display:"none"}}> Featured  </a></li>
             <li > <a href = "#contact-us" className = {styles.headerlinks}>Contact Us </a></li>
-            <li  onClick = {() => history.push('/aljalil')}> <a href = "" className = {styles.headerlinks}>Al-Jalil </a></li>
-            <li onClick = {() => history.push('/alnoor')}> <a href = "" className = {styles.headerlinks}>Al-Noor </a></li>
-            <li onClick = {() => history.push('/albari')}> <a href = "" className = {styles.headerlinks}>Al-Bari  </a></li>
+            <li  onClick = {() => history.push('/aljalilgarden')}> <a href = "" className = {styles.headerlinks}>Al-Jalil Housing Scheme </a></li>
+            <li onClick = {() => history.push('/alnoororchard')}> <a href = "" className = {styles.headerlinks}>Al-Noor Orchard</a></li>
+            <li onClick = {() => history.push('/albariresidencia')}> <a href = "" className = {styles.headerlinks}>Al-Bari Resedencia </a></li>
         </List>
         <Divider />
         <List>
@@ -169,22 +167,22 @@ function Header(props){
             <li className = {styles.links}> <a href = "#aboutus" className = {styles.headerlinks} > About </a></li>
             <li > <a href = "#featured" className = {styles.headerlinks} style = {{display:"none"}}> Featured  </a></li>
             <li > <a href = "#contact-us" className = {styles.headerlinks}>Contact Us </a></li>
-            <li  onClick = {() => history.push('/aljalil')}> <a href = "" className = {styles.headerlinks}>Al-Jalil </a></li>
-            <li onClick = {() => history.push('/alnoor')}> <a href = "" className = {styles.headerlinks}>Al-Noor </a></li>
-            <li onClick = {() => history.push('/albari')}> <a href = "" className = {styles.headerlinks}>Al-Bari  </a></li>
+            <li  onClick = {() => history.push('/aljalilgarden')}> <a href = "" className = {styles.headerlinks}>Al-Jalil Housing Scheme </a></li>
+            <li onClick = {() => history.push('/alnoororchard')}> <a href = "" className = {styles.headerlinks}>Al-Noor Orchard </a></li>
+            <li onClick = {() => history.push('/albariresidencia')}> <a href = "" className = {styles.headerlinks}>Al-Bari Resedencia </a></li>
             
 
         </ul>
         
         <div className = "social">
             <div>
-                <i><Button variant= "contained" className = {classes.button}><a href= "tel:+92-331-4900" style = {{textDecoration:"none",color:"black"}}>+92 331 409 3900</a></Button></i>
+                <i><Button variant= "contained" className = {classes.button}><a href= "tel:+92-331-4900" style = {{textDecoration:"none",color:"black"}}>0333 3627426</a></Button></i>
             </div>
             <div style ={{display:"flex",justifyContent: "flex-start", padding:"5px 0" }}>
-                <i style = {{padding: "0 5px"}} ><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"15px",height:"15px"}}></img></a></i>
-                <i style = {{padding: "0 5px"}}><a  href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"15px",height:"15px"}}></img></a></i>
-                <i style = {{padding: "0 5px"}}><a href = "https://www.linkedin.com/company/sureproperties/"><img src = {linkedin} alt = "linkedin" style = {{width:"15px",height:"15px"}}></img></a></i>
-                <i style = {{padding: "0 5px"}}><a href = "https://twitter.com/PropertiesSure"><img src = {twitter} alt = "twitter" style = {{width:"15px",height:"15px"}}></img></a></i>
+                <i style = {{padding: "2px 5px"}} ><a href = "http://fb.com/surePropertiesPakistan"><img src = {facebook} alt = "facebook" style = {{width:"15px",height:"15px"}}></img></a></i>
+                <i style = {{padding: "2px 5px"}}><a  href = "https://www.instagram.com/surepropertiespk/"><img src = {instagram} alt = "instagram" style = {{width:"15px",height:"15px"}}></img></a></i>
+                <i style = {{padding: "2px 5px"}}><a href = "https://www.linkedin.com/company/sureproperties/"><img src = {linkedin} alt = "linkedin" style = {{width:"15px",height:"15px"}}></img></a></i>
+                <i style = {{padding: "2px 5px"}}><a href = "https://twitter.com/PropertiesSure"><img src = {twitter} alt = "twitter" style = {{width:"15px",height:"15px"}}></img></a></i>
             </div>
         
         </div>

@@ -73,7 +73,7 @@ const AlNoor = () => {
                     </video>
                 </div>
                 <div style = {{width:"90%", margin:"8% 5%"}}>
-                  <h1 style = {{fontFamily:"'Cinzel',serif", fontSize: "2em"}}>Al Jalil Garden Housing Scheme</h1>
+                  <h1 style = {{fontFamily:"'Cinzel',serif", fontSize: "2em"}}>Al Noor Orchard Housing Scheme</h1>
                   <div className = {styles.albariDescription} style = {{display:"flex"}}>
                     <p style = {{marginRight:"80px", fontFamily: "'Quicksand', sans-serif", fontSize:"1.1em"}}>Al-Noor Orchard Housing Scheme is another most successful housing project of Al-Jalil Developers. It’s the largest LDA approved housing project of Lahore-West. It’s serene; It’s beautiful, and, more importantly, it’s equipped with all the amenities of modern life. No doubt, it’s the place where you can experience the lifestyle of your dreams.</p>
                     <img src = {alnoor} className = {styles.albariImage} style = {{padding:"0"}} alt = "albari" ></img>

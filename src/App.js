@@ -15,13 +15,13 @@ function App() {
   return (
     <Router>
     <Switch>
-    <Route path="/albari">
+    <Route path="/albariresidencia">
       <AlBari />
     </Route>
-    <Route path="/aljalil">
+    <Route path="/aljalilgarden">
       <AlJalil />
     </Route>
-    <Route path="/alnoor">
+    <Route path="/alnoororchard">
       <AlNoor />
     </Route>
     <Route path="/">

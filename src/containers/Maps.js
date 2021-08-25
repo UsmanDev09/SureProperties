@@ -37,7 +37,7 @@ class MapContainer extends Component  {
         <Map google={this.props.google} 
         zoom={15} 
         onClick={this.onMapClicked} 
-        initialCenter = {{lat :31.599669188077634,lng: 74.20679545926397}}  
+        initialCenter = {{lat :31.6008800 ,lng: 74.2031500}}  
         containerStyle = {containerStyle}
         styles = {[
           { elementType: "geometry", stylers: [{ color: "#242f3e" }] },

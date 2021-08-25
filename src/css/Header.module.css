@@ -57,6 +57,7 @@ nav > div > i {
     display: inline-block;
     position: relative;
     font-family:'Quicksand',sans-serif;
+    width: 80px;
   }
   
  .headerlinks:after {    
@@ -89,19 +90,19 @@ header > nav > ul > li:nth-child(3) > a{
 }
 
 header > nav > ul > li:nth-child(4) > a{
-    margin:24px 25px 20px 0;
+    margin:15px 25px 20px 0;
 }
 
 header > nav > ul > li:nth-child(5) > a{
-    margin:24px 25px 20px 0;
+    margin:5px 20px 5px 0;
 }
 
 header > nav > ul > li:nth-child(6) > a{
-    margin:24px 25px 20px 0;
+    margin:15px 25px 20px 0;
 }
 
 header > nav > ul > li:nth-child(7) > a{
-    margin:24px 0;
+    margin:15px 0;
 }
 
 .links{
@@ -111,6 +112,14 @@ header > nav > ul > li:nth-child(7) > a{
       transform: translateX(50px);
   }
 
+  @media only screen and (max-width: 950px){
+    .header{
+        height:100%;
+        width:auto; 
+        display: none;
+    }
+
+  }
   @media only screen and (max-width: 650px){
     .headerlinks{
         padding-bottom: 15px;
@@ -118,11 +127,7 @@ header > nav > ul > li:nth-child(7) > a{
         font-size: 1.2em;
         color:black;
     }
-    .header{
-        height:100%;
-        width:auto; 
-        display: none;
-    }
+    
     
     header > nav > ul > li:nth-child(1) > a{
         margin: 20px 25px;

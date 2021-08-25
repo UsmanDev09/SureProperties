@@ -1,4 +1,4 @@
-import logo from '../icons/colorful_logo.png';
+import logo from '../icons/colorful_logo.jpeg';
 import facebook from '../icons/facebook.svg';
 import instagram from '../icons/instagram.svg';
 import linkedin from '../icons/linkedin.svg';
@@ -9,8 +9,11 @@ import email from '../icons/email.svg';
 import jalil from '../icons/al-jalil.png';
 import styles from '../css/Footer.module.css';
 
+import { useHistory } from 'react-router';
+
 const Footer = () => {
-    
+    const history = useHistory();
+
     return(
     <footer style = {{backgroundColor : "white"}}>
         
@@ -50,7 +53,7 @@ const Footer = () => {
                   
                     <div className = {styles.contact} style = {{display: "flex",flexDirection: "column"}} >
                         <h3 > Contact Us</h3>
-                        <p style = {{margin:"0",display:"flex",alignItems:"center",marginBottom:"10px",fontFamily:"'Poppins',sans-serif",fontWeight:"500"}}><img src = {phone} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}} href= "tel:+92-331-4900" >0331 4093900</a></p>
+                        <p style = {{margin:"0",display:"flex",alignItems:"center",marginBottom:"10px",fontFamily:"'Poppins',sans-serif",fontWeight:"500"}}><img src = {phone} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}} href= "tel:+92-331-4900" >0333 3627426</a></p>
                         <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"center",fontFamily:"'Poppins',sans-serif",fontWeight:"500"}}><img src = {email} alt = "twitter" style = {{width:"15px",height:"15px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}}href="mailto: usiddique09@gmail.com">info@sureproperties.pk</a> </p>
                         <p style = {{margin:"0",marginBottom:"20px",display:"flex",alignItems:"center",fontFamily:"'Poppins',sans-serif",fontWeight:"500"}}><img src = {address} alt = "twitter" style = {{width:"20px",height:"20px",marginRight:"10px"}}></img> <a style = {{textDecoration : "none",color:"black"}}href="mailto: usiddique09@gmail.com">Faizput Interchange, Motorway M2, Main Shararpur Road, Lahore.</a> </p>
                     </div>
@@ -59,10 +62,13 @@ const Footer = () => {
                     <div className = {styles.contents}>
                         <h3>Quick Links</h3>
                     <ul >
-                         <li><a href = "#" className = {styles.footerlinks}> Home </a> </li> 
+                         <li onClick = {() => history.push("/")}><a href = "#" className = {styles.footerlinks}> Home </a> </li> 
                         <li> <a href = "#searchh" className = {styles.footerlinks}> About </a></li>
                         {/* <li> <a href = "#feautured" className = {styles.footerlinks}> Featured  </a></li> */}
                         <li> <a href = "#contact" className = {styles.footerlinks}>  Contact Us  </a></li>
+                        <li onClick = {() => history.push("/aljalilgarden")}> <a href = "" className = {styles.footerlinks}>  Al-Jalil Housing Scheme  </a></li>
+                        <li onClick = {() => history.push("/alnoororchard")}> <a href = "" className = {styles.footerlinks}>  Al-Noor Orchard </a></li>
+                        <li onClick = {() => history.push("/albariresidencia")}> <a href = "" className = {styles.footerlinks}>  Al-Bari Residencia  </a></li>
                         
 
                     </ul>
